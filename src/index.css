@@ -51,3 +51,14 @@ html {
 .overlay:hover {
   background-color: hsla(11, 73%, 66%, 40%);
 }
+
+.circleBg {
+  margin: 0 auto;
+  width: 202px;
+  height: 202px;
+  background-image: url("src/designo-multi-page-website/starter-code/assets/home/desktop/bg-pattern-hero-home.svg");
+  background-size: cover;
+
+  display: grid;
+  place-items: center;
+}
