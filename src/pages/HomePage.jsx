@@ -6,7 +6,7 @@ import CircleBg from "../components/CircleBg";
 
 function HomePage() {
   return (
-    <div>
+    <div className="text-secondaryDarkGray">
       <Hero />
       <HomePageMain />
     </div>
