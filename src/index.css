@@ -63,6 +63,8 @@ html {
   place-items: center;
 }
 
+/* Footer */
+
 .orangeBox {
   padding: 64px 24px;
   border-radius: 15px;
@@ -76,4 +78,17 @@ html {
   transform: translateY(-50%);
 
   background: #e7816b;
+}
+
+@media (min-width: 768px) {
+  .orangeBox {
+    padding: 60px;
+
+    left: 40px;
+    right: 40px;
+
+    transform: translateY(-75%);
+
+    background: #e7816b;
+  }
 }
