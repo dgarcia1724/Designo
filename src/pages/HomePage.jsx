@@ -35,12 +35,12 @@ function Hero() {
           alt="hero phone"
         />
       </div>
-      <div className="heroBgPattern">
+      {/* <div className="heroBgPattern">
         <img
           src="src\designo-multi-page-website\starter-code\assets\home\desktop\bg-pattern-hero-home.svg"
           alt="bg pattern"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

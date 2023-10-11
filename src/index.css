@@ -26,7 +26,7 @@ html {
   z-index: 1;
 }
 
-.heroBgPattern {
+/* .heroBgPattern {
   height: 640px;
   width: 640px;
 
@@ -34,7 +34,7 @@ html {
   top: 102px;
   right: -250px;
   z-index: 0;
-}
+} */
 
 /* Home Page Main */
 
@@ -61,4 +61,19 @@ html {
 
   display: grid;
   place-items: center;
+}
+
+.orangeBox {
+  padding: 64px 24px;
+  border-radius: 15px;
+
+  position: absolute;
+
+  top: 0;
+  left: 24px;
+  right: 24px;
+
+  transform: translateY(-50%);
+
+  background: #e7816b;
 }

@@ -1,4 +1,3 @@
-import PeachBtn from "./components/peachBtn";
 import WhiteBtn from "./components/whiteBtn";
 
 // pages
@@ -34,7 +33,7 @@ function Header() {
 
 function Footer() {
   return (
-    <div className="pt-[253px] px-[24px] pb-[64px] bg-primaryBlack text-center text-white">
+    <div className="pt-[253px] px-[24px] pb-[64px] bg-primaryBlack text-center text-white relative">
       <img
         className="mb-[32px] mx-auto w-[202px] h-[27px] "
         src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-light.png"
@@ -46,8 +45,8 @@ function Footer() {
       "
       >
         <p>OUR COMPANY</p>
-        <p>OUR COMPANY</p>
-        <p>OUR COMPANY</p>
+        <p>LOCATIONS</p>
+        <p>CONTACT</p>
       </div>
       <div className="mb-[40px] font-normal text-4 leading-[26px] tracking-[0px] opacity-50">
         <p className="font-bold">Designo Central Office</p>
@@ -85,6 +84,16 @@ function Footer() {
           src="src\designo-multi-page-website\starter-code\assets\shared\desktop\icon-instagram.svg"
           alt="instagram"
         />
+      </div>
+      <div className="orangeBox">
+        <h1 className="mb-[6px] font-medium text-[32px] leading-[36px] tracking-[0px]">
+          Let’s talk about your project
+        </h1>
+        <p className="mb-[32px] font-normal text-[15px] leading-[25px] tracking-[0px]">
+          Ready to take it to the next level? Contact us today and find out how
+          our expertise can help your business grow.
+        </p>
+        <WhiteBtn>GET IN TOUCH</WhiteBtn>
       </div>
     </div>
   );
