@@ -40,7 +40,10 @@ function Header() {
 
 function Footer() {
   return (
-    <div className="pt-[253px] px-[24px] pb-[64px] bg-primaryBlack text-center text-white relative sm:pt-[166px] sm:px-[40px] sm:pb-[80px]">
+    <div
+      className="pt-[253px] px-[24px] pb-[64px] bg-primaryBlack text-center text-white relative sm:pt-[166px] sm:px-[40px] sm:pb-[80px]
+    "
+    >
       <section className="sm:mb-[40px] sm:flex sm:items-center sm:justify-between">
         <img
           className="mb-[32px] mx-auto w-[202px] h-[27px] sm:ml-0 sm:mb-0"

@@ -50,7 +50,7 @@ function Hero() {
 
 function HomePageMain() {
   return (
-    <div className="pt-[120px] px-6 pb-[311px] sm:px-[40px] md:pt-[160px] md:px-[164px]">
+    <div className="pt-[120px] px-6 pb-[311px] sm:pb-[331px] sm:px-[40px] md:pt-[160px] md:px-[164px] md:pb-[380px]">
       <section
         className=" h-[798px] w-[full] grid gap-6 sm:h-[689px] sm:gap-[25px] md:grid-cols-2 md:grid-rows-2 md:gap-x-[30px]
       md:gap-y-[24px] md:h-[1112px]"
@@ -59,11 +59,11 @@ function HomePageMain() {
         <AppDesignViewProjects />
         <GraphicDesignViewProjects />
       </section>
-      <section className="mt-[120px] grid gap-[80px] sm:gap-[32px]">
+      <section className="mt-[120px] grid gap-[80px] sm:gap-[32px] md:mt-[160px] md:grid-cols-3 md:gap-[30px]">
         {/* #1 */}
         <div
           className=" grid gap-[48px] text-center sm:grid sm:grid-cols-3 sm:text-left
-        sm:items-center"
+        sm:items-center md:grid-cols-1 md:text-center"
         >
           <CircleBg>
             <img
@@ -72,7 +72,7 @@ function HomePageMain() {
             />
           </CircleBg>
           <div className="sm:col-span-2">
-            <h2 className="font-medium text-[20px] tracking-[5px] sm:mb-[16px]">
+            <h2 className="font-medium text-[20px] tracking-[5px] sm:mb-[16px] md:mb-[32px]">
               PASSIONATE
             </h2>
             <p className="font-normal text-4 leading-[26px] tracking-[0]">
@@ -85,7 +85,7 @@ function HomePageMain() {
         {/* #2 */}
         <div
           className=" grid gap-[48px] text-center sm:grid sm:grid-cols-3 sm:text-left
-        sm:items-center"
+        sm:items-center md:grid-cols-1 md:text-center"
         >
           <CircleBg>
             <img
@@ -94,7 +94,7 @@ function HomePageMain() {
             />
           </CircleBg>
           <div className="sm:col-span-2">
-            <h2 className="font-medium text-[20px] tracking-[5px] sm:mb-[16px]">
+            <h2 className="font-medium text-[20px] tracking-[5px] sm:mb-[16px] md:mb-[32px]">
               RESOURCEFUL
             </h2>
             <p className="font-normal text-4 leading-[26px] tracking-[0]">
@@ -107,7 +107,7 @@ function HomePageMain() {
         {/* #3 */}
         <div
           className=" grid gap-[48px] text-center sm:grid sm:grid-cols-3 sm:text-left
-        sm:items-center"
+        sm:items-center md:grid-cols-1 md:text-center"
         >
           <CircleBg>
             <img
@@ -116,7 +116,7 @@ function HomePageMain() {
             />
           </CircleBg>
           <div className="sm:col-span-2">
-            <h2 className="font-medium text-[20px] tracking-[5px] sm:mb-[16px]">
+            <h2 className="font-medium text-[20px] tracking-[5px] sm:mb-[16px] md:mb-[32px]">
               FRIENDLY
             </h2>
             <p className="font-normal text-4 leading-[26px] tracking-[0]">
