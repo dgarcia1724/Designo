@@ -94,6 +94,13 @@ html {
 }
 
 @media (min-width: 1400px) {
+  .orangeBox {
+    padding: 72px 96px;
+
+    left: 164px;
+    right: 164px;
+  }
+
   .heroPhone {
     height: 1200px;
     width: 600px;
