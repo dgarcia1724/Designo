@@ -17,8 +17,11 @@ export default HomePage;
 
 function Hero() {
   return (
-    <div className="pt-[80px] px-[24px] text-center h-[843px] bg-primaryPeach overflow-hidden relative sm:mx-[40px] sm:rounded-[15px] sm:pt-[60px] sm:px-[58px]">
-      <section className="heroText">
+    <div
+      className="pt-[80px] px-[24px] text-center h-[843px] bg-primaryPeach overflow-hidden relative sm:mx-[40px] sm:rounded-[15px] sm:pt-[60px] sm:px-[58px] md:mx-[165px] md:pt-[145px]
+    md:pl-[95px]"
+    >
+      <section className="heroText md:w-[540px] md:text-left">
         <h1 className="mb-[14px] font-medium text-[32px] leading-[36px] tracking-[0] text-white sm:text-[48px] sm:leading-[48px] sm:mb-[20px]">
           Award-winning custom designs and digital branding solutions
         </h1>
@@ -47,17 +50,14 @@ function Hero() {
 
 function HomePageMain() {
   return (
-    <div className="pt-[120px] px-6 pb-[311px] sm:px-[40px]">
-      <section className="grid gap-6 sm:gap-[25px]">
-        <div>
-          <WebDesignViewProjects />
-        </div>
-        <div>
-          <AppDesignViewProjects />
-        </div>
-        <div>
-          <GraphicDesignViewProjects />
-        </div>
+    <div className="pt-[120px] px-6 pb-[311px] sm:px-[40px] md:pt-[160px] md:px-[164px]">
+      <section
+        className=" h-[798px] w-[full] grid gap-6 sm:h-[689px] sm:gap-[25px] md:grid-cols-2 md:grid-rows-2 md:gap-x-[30px]
+      md:gap-y-[24px] md:h-[1112px]"
+      >
+        <WebDesignViewProjects />
+        <AppDesignViewProjects />
+        <GraphicDesignViewProjects />
       </section>
       <section className="mt-[120px] grid gap-[80px] sm:gap-[32px]">
         {/* #1 */}

@@ -92,3 +92,17 @@ html {
     background: #e7816b;
   }
 }
+
+@media (min-width: 1400px) {
+  .heroPhone {
+    height: 1200px;
+    width: 600px;
+
+    position: absolute;
+    top: -20px;
+    bottom: none;
+    right: 15%;
+    transform: none;
+    z-index: 1;
+  }
+}

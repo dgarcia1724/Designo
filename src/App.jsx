@@ -15,7 +15,7 @@ export default function App() {
 
 function Header() {
   return (
-    <div className="py-[34px] px-[24px] flex items-center justify-between gap-[101px] sm:bg-cyan-300 sm:py-[64px] sm:px-[40px]">
+    <div className="py-[34px] px-[24px] flex items-center justify-between gap-[101px] sm:bg-cyan-300 sm:py-[64px] sm:px-[40px] md:bg-green-200 md:px-[165px]">
       <img
         className="w-[202px] h-[27px] "
         src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-dark.png"
