@@ -15,26 +15,28 @@ export default function App() {
 
 function Header() {
   return (
-    <div className="py-[34px] px-[24px] flex items-center justify-between gap-[101px]  sm:py-[64px] sm:px-[40px]  md:px-[165px]">
-      <img
-        className="w-[202px] h-[27px] "
-        src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-dark.png"
-        alt="logo"
-      />
-      <button className="w-[24px] h-[20px] sm:hidden">
+    <header className="top-0 sticky z-[999]">
+      <div className="py-[34px] px-[24px] flex items-center justify-between gap-[101px] bg-white drop-shadow sm:py-[64px] sm:px-[40px]  md:px-[165px]">
         <img
-          src="src\designo-multi-page-website\starter-code\assets\shared\mobile\icon-hamburger.svg"
-          alt="hamburger"
+          className="w-[202px] h-[27px] "
+          src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-dark.png"
+          alt="logo"
         />
-      </button>
-      <nav className="hidden sm:block">
-        <ul className="flex items-center justify-center gap-[42px] font-normal text-[14px] tracking-[2px]">
-          <li>OUR COMPANY</li>
-          <li>LOCATIONS</li>
-          <li>CONTACT</li>
-        </ul>
-      </nav>
-    </div>
+        <button className="w-[24px] h-[20px] sm:hidden">
+          <img
+            src="src\designo-multi-page-website\starter-code\assets\shared\mobile\icon-hamburger.svg"
+            alt="hamburger"
+          />
+        </button>
+        <nav className="hidden sm:block">
+          <ul className="flex items-center justify-center gap-[42px] font-normal text-[14px] tracking-[2px]">
+            <li>OUR COMPANY</li>
+            <li>LOCATIONS</li>
+            <li>CONTACT</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 }
 

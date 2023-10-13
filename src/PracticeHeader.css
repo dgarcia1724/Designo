@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: #e7816b;
+}
+
+.redBox {
+  width: 50px;
+  height: 2000px;
+  background-color: red;
+}
+.blueBox {
+  width: 50px;
+  height: 2000px;
+  background-color: blue;
+}
+.greenBox {
+  width: 50px;
+  height: 2000px;
+  background-color: green;
+}
+
+.blurBg {
+  position: absolute;
+
+  top: 100%;
+  left: 0;
+  right: 0;
+
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
