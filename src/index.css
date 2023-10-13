@@ -6,6 +6,24 @@ html {
   font-family: "Jost", sans-serif;
 }
 
+/********* Header  *********/
+.darkOverlay {
+  position: absolute;
+
+  top: 100%;
+  left: 0;
+  right: 0;
+
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Nav Link  */
+.active {
+  color: #e7816b;
+}
+
 /********* HOME PAGE  *********/
 
 /* Mobile */

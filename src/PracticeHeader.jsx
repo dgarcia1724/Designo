@@ -24,6 +24,7 @@ export default function App() {
               Logo
             </Link>
           </h1>
+          {/* tablet nav */}
           <nav className="hidden sm:block">
             <ul className="flex gap-10">
               <li>

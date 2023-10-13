@@ -2,40 +2,156 @@ import WhiteBtn from "./components/whiteBtn";
 
 // pages
 import HomePage from "./pages/HomePage";
+import About from "./pages/About";
+import Locations from "./pages/Locations";
+import Contact from "./pages/Contact";
+
+import { Link, NavLink, Route, Routes } from "react-router-dom";
+import { createContext, useContext, useReducer } from "react";
+
+const AppContext = createContext();
+
+const initialState = {
+  isNavOpen: false,
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "toggle nav":
+      return { ...state, isNavOpen: !state.isNavOpen };
+    case "open nav":
+      return { ...state, isNavOpen: true };
+    case "close nav":
+      return { ...state, isNavOpen: false };
+    default:
+      throw new Error("Unknown State");
+  }
+}
 
 export default function App() {
+  const [{ isNavOpen }, dispatch] = useReducer(reducer, initialState);
+
   return (
     <div>
-      <Header />
-      <HomePage />
-      <Footer />
+      <AppContext.Provider value={{ isNavOpen, dispatch }}>
+        <Header />
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/locations" element={<Locations />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </AppContext.Provider>
     </div>
   );
 }
 
 function Header() {
+  const { isNavOpen, dispatch } = useContext(AppContext);
+
   return (
     <header className="top-0 sticky z-[999]">
       <div className="py-[34px] px-[24px] flex items-center justify-between gap-[101px] bg-white drop-shadow sm:py-[64px] sm:px-[40px]  md:px-[165px]">
-        <img
-          className="w-[202px] h-[27px] "
-          src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-dark.png"
-          alt="logo"
-        />
-        <button className="w-[24px] h-[20px] sm:hidden">
+        <Link onClick={() => dispatch({ type: "close nav" })} to="/">
           <img
-            src="src\designo-multi-page-website\starter-code\assets\shared\mobile\icon-hamburger.svg"
-            alt="hamburger"
+            className="w-[202px] h-[27px] "
+            src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-dark.png"
+            alt="logo"
           />
-        </button>
+        </Link>
+        {/* mobile header btn */}
+        {isNavOpen ? (
+          <button
+            onClick={() => dispatch({ type: "close nav" })}
+            className="w-[24px] h-[20px] sm:hidden"
+          >
+            <img
+              src="src\designo-multi-page-website\starter-code\assets\shared\mobile\icon-close.svg"
+              alt="close"
+            />
+          </button>
+        ) : (
+          <button
+            onClick={() => dispatch({ type: "open nav" })}
+            className="w-[24px] h-[20px] sm:hidden"
+          >
+            <img
+              src="src\designo-multi-page-website\starter-code\assets\shared\mobile\icon-hamburger.svg"
+              alt="hamburger"
+            />
+          </button>
+        )}
+        {/* tablet nav */}
         <nav className="hidden sm:block">
           <ul className="flex items-center justify-center gap-[42px] font-normal text-[14px] tracking-[2px]">
-            <li>OUR COMPANY</li>
-            <li>LOCATIONS</li>
-            <li>CONTACT</li>
+            <li>
+              <NavLink
+                onClick={() => dispatch({ type: "close nav" })}
+                to="/about"
+              >
+                OUR COMPANY
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={() => dispatch({ type: "close nav" })}
+                to="/locations"
+              >
+                LOCATIONS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={() => dispatch({ type: "close nav" })}
+                to="/contact"
+              >
+                CONTACT
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
+      {/* mobile nav */}
+      {isNavOpen && (
+        <div className="sm:hidden relative">
+          <nav>
+            <ul
+              className="py-[48px] px-[24px] space-y-[32px] bg-primaryBlack text-white font-normal text-[24px]
+            tracking-[2px]"
+            >
+              <li>
+                <NavLink
+                  onClick={() => dispatch({ type: "close nav" })}
+                  to="/about"
+                >
+                  OUR COMPANY
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  onClick={() => dispatch({ type: "close nav" })}
+                  to="/locations"
+                >
+                  LOCATIONS
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  onClick={() => dispatch({ type: "close nav" })}
+                  to="/contact"
+                >
+                  CONTACT
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+          <div
+            onClick={() => dispatch({ type: "close nav" })}
+            className="darkOverlay"
+          ></div>
+        </div>
+      )}
     </header>
   );
 }
