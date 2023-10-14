@@ -4,18 +4,24 @@ import PeachBtn from "../components/PeachBtn";
 function About() {
   return (
     <div>
-      <section className="sm:mb-[120px] sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden">
+      <section
+        className="sm:mb-[120px] sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden md:mb-[160px] md:mx-[164px] md:grid md:grid-cols-10
+      md:h-[480px]"
+      >
         <img
           className="w-full h-[320px] object-cover sm:hidden"
           src="src\designo-multi-page-website\starter-code\assets\about\mobile\image-about-hero.jpg"
           alt="image-about-hero"
         />
         <img
-          className="hidden w-full h-[320px] object-cover sm:block"
+          className="hidden w-full h-[320px] object-cover sm:block md:hidden"
           src="src\designo-multi-page-website\starter-code\assets\about\tablet\image-about-hero.jpg"
           alt="image-about-hero"
         />
-        <div className="py-[80px] px-[24px] bg-primaryPeach text-white text-center sm:py-[64px] sm:px-[58px]">
+        <div
+          className="py-[80px] px-[24px] bg-primaryPeach text-white text-center sm:py-[64px] sm:px-[58px] md:col-span-6 
+        md:p-[0px] md:py-[135px] md:pl-[95px] md:pr-[82px] md:text-left"
+        >
           <h1 className="mb-[24px] font-medium text-[32px] tracking-[0px] sm:mb-[32px] sm:text-[48px]">
             About Us
           </h1>
@@ -27,19 +33,32 @@ function About() {
             and digital experiences that connect with our clients’ audiences.
           </p>
         </div>
+        <img
+          className="hidden w-full h-full object-cover md:block md:col-span-4"
+          src="src\designo-multi-page-website\starter-code\assets\about\desktop\image-about-hero.jpg"
+          alt="image-about-hero"
+        />
       </section>
-      <section className="sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden">
+      <section className="sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden md:h-[640px] md:grid md:grid-cols-10 md:mx-[164px]">
         <img
           className="w-full h-[320px] object-cover sm:hidden"
           src="src\designo-multi-page-website\starter-code\assets\about\mobile\image-world-class-talent.jpg"
           alt="image-world-class-talent"
         />
         <img
-          className="hidden w-full h-[320px] object-cover sm:block"
+          className="hidden w-full h-[320px] object-cover sm:block md:hidden"
           src="src\designo-multi-page-website\starter-code\assets\about\tablet\image-world-class-talent.jpg"
           alt="image-world-class-talent"
         />
-        <div className="py-[80px] px-[24px] bg-[#FDF3F0] text-white text-center sm:py-[68px] sm:px-[58px]">
+        <img
+          className="hidden w-full h-full object-cover md:block md:col-span-4"
+          src="src\designo-multi-page-website\starter-code\assets\about\desktop\image-world-class-talent.jpg"
+          alt="image-world-class-talent"
+        />
+        <div
+          className="py-[80px] px-[24px] bg-[#FDF3F0] text-white text-center sm:py-[68px] sm:px-[58px] md:col-span-6 
+        md:py-[154px] md:px-[94px] md:text-left"
+        >
           <h1 className="mb-[24px] font-medium text-primaryPeach text-[32px] tracking-[0px] sm:text-[40px]">
             World-class talent
           </h1>
@@ -59,7 +78,7 @@ function About() {
         </div>
       </section>
       {/* 3 Buttons Grid */}
-      <section className="my-[120px] mx-[12px] grid gap-[48px] sm:gap-[80px]">
+      <section className="my-[120px] mx-[12px] grid gap-[48px] sm:gap-[80px] md:my-[160px] md:mx-[164px] md:grid-cols-3 md:gap-[30px]">
         {/* #1 */}
         <div className="text-center">
           <CircleBg>
@@ -100,18 +119,24 @@ function About() {
           <PeachBtn>SEE LOCATION</PeachBtn>
         </div>
       </section>
-      <section className="mb-[310px] sm:mb-[384px] sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden">
+      <section
+        className="mb-[310px] sm:mb-[384px] sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden md:mx-[164px] md:grid md:grid-cols-10
+      md:mb-[380px]"
+      >
         <img
           className="w-full h-[320px] object-cover sm:hidden"
           src="src\designo-multi-page-website\starter-code\assets\about\mobile\image-real-deal.jpg"
           alt="image-real-deal"
         />
         <img
-          className="hidden w-full h-[320px] object-cover sm:block"
+          className="hidden w-full h-[320px] object-cover sm:block md:hidden"
           src="src\designo-multi-page-website\starter-code\assets\about\tablet\image-real-deal.jpg"
           alt="image-real-deal"
         />
-        <div className="py-[80px] px-[24px] bg-[#FDF3F0] text-white text-center sm:py-[68px] sm:px-[58px]">
+        <div
+          className="py-[80px] px-[24px] bg-[#FDF3F0] text-white text-center sm:py-[68px] sm:px-[58px] md:col-span-6 
+        md:py-[154px] md:px-[94px] md:text-left"
+        >
           <h1 className="mb-[24px] font-medium text-primaryPeach text-[32px] tracking-[0px] sm:text-[40px]">
             The real deal
           </h1>
@@ -128,6 +153,11 @@ function About() {
             take action and drive real results.
           </p>
         </div>
+        <img
+          className="hidden w-full h-full object-cover md:block md:col-span-4"
+          src="src\designo-multi-page-website\starter-code\assets\about\desktop\image-real-deal.jpg"
+          alt="image-real-deal"
+        />
       </section>
     </div>
   );
