@@ -2,6 +2,9 @@ import WhiteBtn from "./components/whiteBtn";
 
 // pages
 import HomePage from "./pages/HomePage";
+import WebDesign from "./pages/WebDesign";
+import AppDesign from "./pages/AppDesign";
+import GraphicDesign from "./pages/GraphicDesign";
 import About from "./pages/About";
 import Locations from "./pages/Locations";
 import Contact from "./pages/Contact";
@@ -37,6 +40,11 @@ export default function App() {
         <Header />
         <Routes>
           <Route index element={<HomePage />} />
+
+          <Route path="/webdesign" element={<WebDesign />} />
+          <Route path="/appdesign" element={<AppDesign />} />
+          <Route path="/graphicdesign" element={<GraphicDesign />} />
+
           <Route path="/about" element={<About />} />
           <Route path="/locations" element={<Locations />} />
           <Route path="/contact" element={<Contact />} />
@@ -163,19 +171,27 @@ function Footer() {
     md:pt-[144px] md:px-[164px] md:pb-[72px]"
     >
       <section className="sm:mb-[40px] sm:flex sm:items-center sm:justify-between">
-        <img
-          className="mb-[32px] mx-auto w-[202px] h-[27px] sm:ml-0 sm:mb-0"
-          src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-light.png"
-          alt="logo"
-        />
+        <Link to="/">
+          <img
+            className="mb-[32px] mx-auto w-[202px] h-[27px] sm:ml-0 sm:mb-0"
+            src="src\designo-multi-page-website\starter-code\assets\shared\desktop\logo-light.png"
+            alt="logo"
+          />
+        </Link>
         <div className="mb-[32px] h-[1px] w-full bg-white opacity-10 sm:hidden"></div>
         <div
           className="mb-[40px] grid gap-[32px] font-normal text-[14px] tracking-[2px]
            sm:grid-cols-3 sm:items-center sm:gap-[42px] sm:mb-0"
         >
-          <p>OUR COMPANY</p>
-          <p>LOCATIONS</p>
-          <p>CONTACT</p>
+          <p>
+            <NavLink to="/about">OUR COMPANY</NavLink>
+          </p>
+          <p>
+            <NavLink to="/locations">LOCATIONS</NavLink>
+          </p>
+          <p>
+            <NavLink to="/contact">CONTACT</NavLink>
+          </p>
         </div>
       </section>
       <div className="hidden mb-[32px] h-[1px] w-full bg-white opacity-10 sm:block"></div>
@@ -237,7 +253,9 @@ function Footer() {
             how our expertise can help your business grow.
           </p>
         </div>
-        <WhiteBtn>GET IN TOUCH</WhiteBtn>
+        <Link to="/contact">
+          <WhiteBtn>GET IN TOUCH</WhiteBtn>
+        </Link>
       </div>
     </div>
   );

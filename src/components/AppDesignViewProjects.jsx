@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AppDesignViewProjects() {
   return (
     <div
@@ -6,7 +8,7 @@ sm:bg-[url('src/designo-multi-page-website/starter-code/assets/home/tablet/image
 md:bg-[url('src/designo-multi-page-website/starter-code/assets/home/desktop/image-app-design.jpg')]
 "
     >
-      <a href="#">
+      <Link to="/appdesign">
         <section className="h-full w-full grid place-items-center">
           <div>
             <h1
@@ -27,7 +29,7 @@ md:bg-[url('src/designo-multi-page-website/starter-code/assets/home/desktop/imag
           </div>
         </section>
         <div className="overlay"></div>
-      </a>
+      </Link>
     </div>
   );
 }

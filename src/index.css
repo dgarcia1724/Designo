@@ -131,3 +131,18 @@ html {
     z-index: 1;
   }
 }
+
+/******* 3 Design Pages ********/
+
+/* Card */
+.cardBox:hover > section {
+  background-color: #e7816b;
+}
+
+.cardBox:hover > section > h1 {
+  color: #fff;
+}
+
+.cardBox:hover > section > p {
+  color: #fff;
+}

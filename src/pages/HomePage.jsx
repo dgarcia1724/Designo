@@ -1,8 +1,12 @@
 import WhiteBtn from "../components/whiteBtn";
+
 import WebDesignViewProjects from "../components/WebDesignViewProjects";
 import AppDesignViewProjects from "../components/AppDesignViewProjects";
 import GraphicDesignViewProjects from "../components/GraphicDesignViewProjects";
+
 import CircleBg from "../components/CircleBg";
+
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -30,7 +34,9 @@ function Hero() {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <WhiteBtn>LEARN MORE</WhiteBtn>
+        <Link to="/about">
+          <WhiteBtn>LEARN MORE</WhiteBtn>
+        </Link>
       </section>
       <div className="heroPhone">
         <img

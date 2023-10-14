@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function WebDesignViewProjects() {
   return (
     <div
@@ -5,7 +7,7 @@ function WebDesignViewProjects() {
       sm:bg-[url('src/designo-multi-page-website/starter-code/assets/home/tablet/image-web-design.jpg')] md:col-span-1 md:row-span-2 
       md:bg-[url('src/designo-multi-page-website/starter-code/assets/home/desktop/image-web-design-large.jpg')]"
     >
-      <a href="#">
+      <Link to="/webdesign">
         <section className="h-full w-full grid place-items-center">
           <div>
             <h1
@@ -26,7 +28,7 @@ function WebDesignViewProjects() {
           </div>
         </section>
         <div className="overlay"></div>
-      </a>
+      </Link>
     </div>
   );
 }

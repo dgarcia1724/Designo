@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function GraphicDesignViewProjects() {
   return (
     <div
@@ -5,7 +7,7 @@ function GraphicDesignViewProjects() {
     md:bg-[url('src/designo-multi-page-website/starter-code/assets/home/desktop/image-graphic-design.jpg')]
     "
     >
-      <a href="#">
+      <Link to="/graphicdesign">
         <section className="h-full w-full grid place-items-center">
           <div>
             <h1
@@ -26,7 +28,7 @@ function GraphicDesignViewProjects() {
           </div>
         </section>
         <div className="overlay"></div>
-      </a>
+      </Link>
     </div>
   );
 }
