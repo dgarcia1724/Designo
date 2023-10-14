@@ -1,12 +1,6 @@
-import WhiteBtn from "../components/whiteBtn";
-
 import WebDesignViewProjects from "../components/WebDesignViewProjects";
 import AppDesignViewProjects from "../components/AppDesignViewProjects";
 import GraphicDesignViewProjects from "../components/GraphicDesignViewProjects";
-
-import CircleBg from "../components/CircleBg";
-
-import { Link } from "react-router-dom";
 
 const webDesignData = [
   {
