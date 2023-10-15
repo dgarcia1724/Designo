@@ -146,3 +146,32 @@ html {
 .cardBox:hover > section > p {
   color: #fff;
 }
+
+/******* Form  ********/
+.formInput {
+  padding-left: 14px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+
+  width: 100%;
+
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.formInput::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.formInput:focus {
+  border-bottom: 3px solid white;
+}
+
+.errorMessage {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+  right: 8px;
+}
