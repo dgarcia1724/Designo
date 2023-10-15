@@ -5,41 +5,41 @@ import GraphicDesignViewProjects from "../components/GraphicDesignViewProjects";
 const webDesignData = [
   {
     id: 1,
-    url: "public/assets/web-design/desktop/image-express.jpg",
+    url: "/images/image-express.jpg",
     title: "EXPRESS",
     description: "A multi-carrier shipping website for ecommerce businesses",
   },
   {
     id: 2,
-    url: "public/assets/web-design/desktop/image-transfer.jpg",
+    url: "/images/image-transfer.jpg",
     title: "TRANSFER",
     description:
       "Site for low-cost money transfers and sending money within seconds",
   },
   {
     id: 3,
-    url: "public/assets/web-design/desktop/image-photon.jpg",
+    url: "/images/image-photon.jpg",
     title: "PHOTON",
     description:
       "A state-of-the-art music player with high-resolution audio and DSP effects",
   },
   {
     id: 4,
-    url: "public/assets/web-design/desktop/image-builder.jpg",
+    url: "/images/image-builder.jpg",
     title: "BUILDER",
     description:
       "Connects users with local contractors based on their location",
   },
   {
     id: 5,
-    url: "public/assets/web-design/desktop/image-blogr.jpg",
+    url: "/images/image-blogr.jpg",
     title: "BLOGR",
     description:
       "Blogr is a platform for creating an online blog or publication",
   },
   {
     id: 6,
-    url: "public/assets/web-design/desktop/image-camp.jpg",
+    url: "/images/image-camp.jpg",
     title: "CAMP",
     description:
       "Get expert training in coding, data, design, and digital marketing",

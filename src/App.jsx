@@ -64,7 +64,7 @@ function Header() {
         <Link onClick={() => dispatch({ type: "close nav" })} to="/">
           <img
             className="w-[202px] h-[27px]"
-            src="public\assets\shared\desktop\logo-dark.png"
+            src="/images/logo-dark.png"
             alt="logo"
           />
         </Link>
@@ -74,17 +74,14 @@ function Header() {
             onClick={() => dispatch({ type: "close nav" })}
             className="w-[24px] h-[20px] sm:hidden"
           >
-            <img src="public\assets\shared\mobile\icon-close.svg" alt="close" />
+            <img src="/images/icon-close.svg" alt="close" />
           </button>
         ) : (
           <button
             onClick={() => dispatch({ type: "open nav" })}
             className="w-[24px] h-[20px] sm:hidden"
           >
-            <img
-              src="public\assets\shared\mobile\icon-hamburger.svg"
-              alt="hamburger"
-            />
+            <img src="/images/icon-hamburger.svg" alt="hamburger" />
           </button>
         )}
         {/* tablet nav */}
@@ -171,7 +168,7 @@ function Footer() {
         <Link to="/">
           <img
             className="mb-[32px] mx-auto w-[202px] h-[27px] sm:ml-0 sm:mb-0"
-            src="public\assets\shared\desktop\logo-light.png"
+            src="/images/logo-light.png"
             alt="logo"
           />
         </Link>
@@ -209,27 +206,27 @@ function Footer() {
         <div className="flex items-center justify-center gap-4">
           <img
             className="w-[24px] h-[24px]"
-            src="public\assets\shared\desktop\icon-facebook.svg"
+            src="/images/icon-facebook.svg"
             alt="facebook"
           />
           <img
             className="w-[24px] h-[24px]"
-            src="public\assets\shared\desktop\icon-youtube.svg"
+            src="/images/icon-youtube.svg"
             alt="youtube"
           />
           <img
             className="w-[24px] h-[24px]"
-            src="public\assets\shared\desktop\icon-twitter.svg"
+            src="/images/icon-twitter.svg"
             alt="twitter"
           />
           <img
             className="w-[24px] h-[24px]"
-            src="public\assets\shared\desktop\icon-pinterest.svg"
+            src="/images/icon-pinterest.svg"
             alt="pinterest"
           />
           <img
             className="w-[24px] h-[24px]"
-            src="public\assets\shared\desktop\icon-instagram.svg"
+            src="/images/icon-instagram.svg"
             alt="instagram"
           />
         </div>

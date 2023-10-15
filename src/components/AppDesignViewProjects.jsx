@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function AppDesignViewProjects() {
   return (
     <div
-      className="bg-[url('public/assets/home/mobile/image-app-design.jpg')] bg-cover rounded-[15px] overflow-hidden relative
-sm:bg-[url('public/assets/home/tablet/image-app-design.jpg')]
-md:bg-[url('public/assets/home/desktop/image-app-design.jpg')]
+      className="bg-[url('/images/image-app-design-mobile.jpg')] bg-cover rounded-[15px] overflow-hidden relative
+sm:bg-[url('/images/image-app-design-tablet.jpg')]
+md:bg-[url('/images/image-app-design-desktop.jpg')]
 "
     >
       <Link to="/appdesign">
@@ -21,10 +21,7 @@ md:bg-[url('public/assets/home/desktop/image-app-design.jpg')]
               <p className="font-medium text-[15px] tracking-[5px] text-white">
                 VIEW PROJECTS
               </p>
-              <img
-                src="public\assets\shared\desktop\icon-right-arrow.svg"
-                alt="right arrow"
-              />
+              <img src="/images/icon-right-arrow.svg" alt="right arrow" />
             </div>
           </div>
         </section>

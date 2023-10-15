@@ -5,20 +5,20 @@ import GraphicDesignViewProjects from "../components/GraphicDesignViewProjects";
 const webDesignData = [
   {
     id: 1,
-    url: "public/assets/graphic-design/desktop/image-change.jpg",
+    url: "/images/image-change.jpg",
     title: "TIM BROWN",
     description: `A book cover designed for 
 Tim Brown’s new release, ‘Change’`,
   },
   {
     id: 2,
-    url: "public/assets/graphic-design/desktop/image-boxed-water.jpg",
+    url: "/images/image-boxed-water.jpg",
     title: "BOXED WATER",
     description: "A simple packaging concept made for Boxed Water",
   },
   {
     id: 3,
-    url: "public/assets/graphic-design/desktop/image-science.jpg",
+    url: "/images/image-science.jpg",
     title: "SCIENCE!",
     description: "A poster made in collaboration with the Federal Art Project",
   },

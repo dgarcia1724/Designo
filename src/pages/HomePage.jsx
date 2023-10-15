@@ -39,10 +39,7 @@ function Hero() {
         </Link>
       </section>
       <div className="heroPhone">
-        <img
-          src="public\assets\home\desktop\image-hero-phone.png"
-          alt="hero phone"
-        />
+        <img src="/images/image-hero-phone-desktop.png" alt="hero phone" />
       </div>
       {/* <div className="heroBgPattern">
         <img
@@ -73,7 +70,7 @@ function HomePageMain() {
         >
           <CircleBg>
             <img
-              src="public\assets\home\desktop\illustration-passionate.svg"
+              src="/images/illustration-passionate.svg"
               alt="illustration-passionate"
             />
           </CircleBg>
@@ -95,7 +92,7 @@ function HomePageMain() {
         >
           <CircleBg>
             <img
-              src="public\assets\home\desktop\illustration-resourceful.svg"
+              src="/images/illustration-resourceful.svg"
               alt="illustration-resourceful"
             />
           </CircleBg>
@@ -117,7 +114,7 @@ function HomePageMain() {
         >
           <CircleBg>
             <img
-              src="public\assets\home\desktop\illustration-friendly.svg"
+              src="/images/illustration-friendly.svg"
               alt="illustration-friendly"
             />
           </CircleBg>

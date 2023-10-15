@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function GraphicDesignViewProjects() {
   return (
     <div
-      className="bg-[url('public/assets/home/mobile/image-graphic-design.jpg')] bg-cover rounded-[15px] overflow-hidden relative sm:bg-[url('public/assets/home/tablet/image-graphic-design.jpg')]
-    md:bg-[url('public/assets/home/desktop/image-graphic-design.jpg')]
+      className="bg-[url('/images/image-graphic-design-mobile.jpg')] bg-cover rounded-[15px] overflow-hidden relative sm:bg-[url('/images/image-graphic-design-tablet.jpg')]
+    md:bg-[url('/images/image-graphic-design-desktop.jpg')]
     "
     >
       <Link to="/graphicdesign">
@@ -20,10 +20,7 @@ function GraphicDesignViewProjects() {
               <p className="font-medium text-[15px] tracking-[5px] text-white">
                 VIEW PROJECTS
               </p>
-              <img
-                src="public\assets\shared\desktop\icon-right-arrow.svg"
-                alt="right arrow"
-              />
+              <img src="/images/icon-right-arrow.svg" alt="right arrow" />
             </div>
           </div>
         </section>

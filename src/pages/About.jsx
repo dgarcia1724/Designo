@@ -11,12 +11,12 @@ function About() {
       >
         <img
           className="w-full h-[320px] object-cover sm:hidden"
-          src="public\assets\about\mobile\image-about-hero.jpg"
+          src="/images/image-about-hero-mobile.jpg"
           alt="image-about-hero"
         />
         <img
           className="hidden w-full h-[320px] object-cover sm:block md:hidden"
-          src="public\assets\about\tablet\image-about-hero.jpg"
+          src="/images/image-about-hero-tablet.jpg"
           alt="image-about-hero"
         />
         <div
@@ -36,24 +36,24 @@ function About() {
         </div>
         <img
           className="hidden w-full h-full object-cover md:block md:col-span-4"
-          src="public\assets\about\desktop\image-about-hero.jpg"
+          src="/images/image-about-hero-desktop.jpg"
           alt="image-about-hero"
         />
       </section>
       <section className="sm:mx-[40px] sm:rounded-[15px] sm:overflow-hidden md:h-[640px] md:grid md:grid-cols-10 md:mx-[164px]">
         <img
           className="w-full h-[320px] object-cover sm:hidden"
-          src="public\assets\about\mobile\image-world-class-talent.jpg"
+          src="/images/image-world-class-talent-mobile.jpg"
           alt="image-world-class-talent"
         />
         <img
           className="hidden w-full h-[320px] object-cover sm:block md:hidden"
-          src="public\assets\about\tablet\image-world-class-talent.jpg"
+          src="/images/image-world-class-talent-tablet.jpg"
           alt="image-world-class-talent"
         />
         <img
           className="hidden w-full h-full object-cover md:block md:col-span-4"
-          src="public\assets\about\desktop\image-world-class-talent.jpg"
+          src="/images/image-world-class-talent-desktop.jpg"
           alt="image-world-class-talent"
         />
         <div
@@ -84,7 +84,7 @@ function About() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="public\assets\shared\desktop\illustration-canada.svg"
+              src="/images/illustration-canada.svg"
               alt="illustration-canada"
             />
           </CircleBg>
@@ -99,7 +99,7 @@ function About() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="public\assets\shared\desktop\illustration-australia.svg"
+              src="/images/illustration-australia.svg"
               alt="illustration-australia"
             />
           </CircleBg>
@@ -114,7 +114,7 @@ function About() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="public\assets\shared\desktop\illustration-united-kingdom.svg"
+              src="/images/illustration-united-kingdom.svg"
               alt="illustration-united-kingdom"
             />
           </CircleBg>
@@ -132,12 +132,12 @@ function About() {
       >
         <img
           className="w-full h-[320px] object-cover sm:hidden"
-          src="public\assets\about\mobile\image-real-deal.jpg"
+          src="/images/image-real-deal-mobile.jpg"
           alt="image-real-deal"
         />
         <img
           className="hidden w-full h-[320px] object-cover sm:block md:hidden"
-          src="public\assets\about\tablet\image-real-deal.jpg"
+          src="/images/image-real-deal-tablet.jpg"
           alt="image-real-deal"
         />
         <div
@@ -162,7 +162,7 @@ function About() {
         </div>
         <img
           className="hidden w-full h-full object-cover md:block md:col-span-4"
-          src="public\assets\about\desktop\image-real-deal.jpg"
+          src="/images/image-real-deal-desktop.jpg"
           alt="image-real-deal"
         />
       </section>

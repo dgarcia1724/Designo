@@ -149,10 +149,7 @@ function Contact() {
                 <p className="italic text-[12px] tracking-[0px]">
                   Can't be empty
                 </p>
-                <img
-                  src="public\assets\contact\desktop\icon-error.svg"
-                  alt="icon-error"
-                />
+                <img src="/images/icon-error.svg" alt="icon-error" />
               </div>
             )}
           </div>
@@ -172,10 +169,7 @@ function Contact() {
                 <p className="italic text-[12px] tracking-[0px]">
                   {emailMessage}
                 </p>
-                <img
-                  src="public\assets\contact\desktop\icon-error.svg"
-                  alt="icon-error"
-                />
+                <img src="/images/icon-error.svg" alt="icon-error" />
               </div>
             )}
           </div>
@@ -195,10 +189,7 @@ function Contact() {
                 <p className="italic text-[12px] tracking-[0px]">
                   Can't be empty
                 </p>
-                <img
-                  src="public\assets\contact\desktop\icon-error.svg"
-                  alt="icon-error"
-                />
+                <img src="/images/icon-error.svg" alt="icon-error" />
               </div>
             )}
           </div>
@@ -218,10 +209,7 @@ function Contact() {
                 <p className="italic text-[12px] tracking-[0px]">
                   Can't be empty
                 </p>
-                <img
-                  src="public\assets\contact\desktop\icon-error.svg"
-                  alt="icon-error"
-                />
+                <img src="/images/icon-error.svg" alt="icon-error" />
               </div>
             )}
           </div>
@@ -240,7 +228,7 @@ function Contact() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="public\assets\shared\desktop\illustration-canada.svg"
+              src="/images/illustration-canada.svg"
               alt="illustration-canada"
             />
           </CircleBg>
@@ -255,7 +243,7 @@ function Contact() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="public\assets\shared\desktop\illustration-australia.svg"
+              src="/images/illustration-australia.svg"
               alt="illustration-australia"
             />
           </CircleBg>
@@ -270,7 +258,7 @@ function Contact() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="public\assets\shared\desktop\illustration-united-kingdom.svg"
+              src="/images/illustration-united-kingdom.svg"
               alt="illustration-united-kingdom"
             />
           </CircleBg>
