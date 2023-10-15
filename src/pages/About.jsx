@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CircleBg from "../components/CircleBg";
 import PeachBtn from "../components/PeachBtn";
 
@@ -90,7 +91,9 @@ function About() {
           <h1 className="mt-[48px] mb-[32px] font-medium text-[20px] tracking-[5px] text-secondaryDarkGray sm:mb-[48px]">
             CANADA
           </h1>
-          <PeachBtn>SEE LOCATION</PeachBtn>
+          <Link to="/locations">
+            <PeachBtn>SEE LOCATION</PeachBtn>
+          </Link>
         </div>
         {/* #2 */}
         <div className="text-center">
@@ -103,7 +106,9 @@ function About() {
           <h1 className="mt-[48px] mb-[32px] font-medium text-[20px] tracking-[5px] text-secondaryDarkGray sm:mb-[48px]">
             AUSTRALIA
           </h1>
-          <PeachBtn>SEE LOCATION</PeachBtn>
+          <Link to="/locations">
+            <PeachBtn>SEE LOCATION</PeachBtn>
+          </Link>
         </div>
         {/* #3 */}
         <div className="text-center">
@@ -116,7 +121,9 @@ function About() {
           <h1 className="mt-[48px] mb-[32px] font-medium text-[20px] tracking-[5px] text-secondaryDarkGray sm:mb-[48px]">
             UNITED KINGDOM
           </h1>
-          <PeachBtn>SEE LOCATION</PeachBtn>
+          <Link to="/locations">
+            <PeachBtn>SEE LOCATION</PeachBtn>
+          </Link>
         </div>
       </section>
       <section
