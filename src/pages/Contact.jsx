@@ -150,7 +150,7 @@ function Contact() {
                   Can't be empty
                 </p>
                 <img
-                  src="src\designo-multi-page-website\starter-code\assets\contact\desktop\icon-error.svg"
+                  src="src\assets\contact\desktop\icon-error.svg"
                   alt="icon-error"
                 />
               </div>
@@ -173,7 +173,7 @@ function Contact() {
                   {emailMessage}
                 </p>
                 <img
-                  src="src\designo-multi-page-website\starter-code\assets\contact\desktop\icon-error.svg"
+                  src="src\assets\contact\desktop\icon-error.svg"
                   alt="icon-error"
                 />
               </div>
@@ -196,7 +196,7 @@ function Contact() {
                   Can't be empty
                 </p>
                 <img
-                  src="src\designo-multi-page-website\starter-code\assets\contact\desktop\icon-error.svg"
+                  src="src\assets\contact\desktop\icon-error.svg"
                   alt="icon-error"
                 />
               </div>
@@ -219,7 +219,7 @@ function Contact() {
                   Can't be empty
                 </p>
                 <img
-                  src="src\designo-multi-page-website\starter-code\assets\contact\desktop\icon-error.svg"
+                  src="src\assets\contact\desktop\icon-error.svg"
                   alt="icon-error"
                 />
               </div>
@@ -240,7 +240,7 @@ function Contact() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="src\designo-multi-page-website\starter-code\assets\shared\desktop\illustration-canada.svg"
+              src="src\assets\shared\desktop\illustration-canada.svg"
               alt="illustration-canada"
             />
           </CircleBg>
@@ -255,7 +255,7 @@ function Contact() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="src\designo-multi-page-website\starter-code\assets\shared\desktop\illustration-australia.svg"
+              src="src\assets\shared\desktop\illustration-australia.svg"
               alt="illustration-australia"
             />
           </CircleBg>
@@ -270,7 +270,7 @@ function Contact() {
         <div className="text-center">
           <CircleBg>
             <img
-              src="src\designo-multi-page-website\starter-code\assets\shared\desktop\illustration-united-kingdom.svg"
+              src="src\assets\shared\desktop\illustration-united-kingdom.svg"
               alt="illustration-united-kingdom"
             />
           </CircleBg>

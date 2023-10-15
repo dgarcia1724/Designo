@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function AppDesignViewProjects() {
   return (
     <div
-      className="bg-[url('src/designo-multi-page-website/starter-code/assets/home/mobile/image-app-design.jpg')] bg-cover rounded-[15px] overflow-hidden relative
-sm:bg-[url('src/designo-multi-page-website/starter-code/assets/home/tablet/image-app-design.jpg')]
-md:bg-[url('src/designo-multi-page-website/starter-code/assets/home/desktop/image-app-design.jpg')]
+      className="bg-[url('src/assets/home/mobile/image-app-design.jpg')] bg-cover rounded-[15px] overflow-hidden relative
+sm:bg-[url('src/assets/home/tablet/image-app-design.jpg')]
+md:bg-[url('src/assets/home/desktop/image-app-design.jpg')]
 "
     >
       <Link to="/appdesign">
@@ -22,7 +22,7 @@ md:bg-[url('src/designo-multi-page-website/starter-code/assets/home/desktop/imag
                 VIEW PROJECTS
               </p>
               <img
-                src="src\designo-multi-page-website\starter-code\assets\shared\desktop\icon-right-arrow.svg"
+                src="src\assets\shared\desktop\icon-right-arrow.svg"
                 alt="right arrow"
               />
             </div>
