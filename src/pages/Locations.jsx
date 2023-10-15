@@ -5,12 +5,12 @@ function Locations() {
       <section className="mb-[40px] sm:mb-[120px] grid sm:gap-[31px] md:grid-cols-10 md:gap-[30px] md:mb-[32px]">
         <img
           className="w-full h-[320px] object-cover sm:hidden"
-          src="src\assets\locations\desktop\image-map-canada.png"
+          src="public\assets\locations\desktop\image-map-canada.png"
           alt="image-map-canada"
         />
         <img
           className="hidden w-full h-[320px] object-cover sm:block  sm:rounded-[15px] md:hidden"
-          src="src\assets\locations\tablet\image-map-canada.png"
+          src="public\assets\locations\tablet\image-map-canada.png"
           alt="image-map-canada"
         />
         <div className="py-[80px] px-[24px] text-center bg-[#FDF3F0] sm:rounded-[15px] sm:py-[88px] sm:px-[74px] sm:text-left md:col-span-7">
@@ -40,7 +40,7 @@ function Locations() {
         </div>
         <img
           className="hidden w-full h-full object-cover rounded-[15px] md:block md:col-span-3"
-          src="src\assets\locations\desktop\image-map-canada.png"
+          src="public\assets\locations\desktop\image-map-canada.png"
           alt="image-map-canada"
         />
       </section>
@@ -48,17 +48,17 @@ function Locations() {
       <section className="mb-[40px] sm:mb-[120px] grid sm:gap-[31px] md:grid-cols-10 md:gap-[30px] md:mb-[32px]">
         <img
           className="w-full h-[320px] object-cover sm:hidden"
-          src="src\assets\locations\desktop\image-map-australia.png"
+          src="public\assets\locations\desktop\image-map-australia.png"
           alt="image-map-canada"
         />
         <img
           className="hidden w-full h-[320px] object-cover sm:block  sm:rounded-[15px] md:hidden"
-          src="src\assets\locations\tablet\image-map-australia.png"
+          src="public\assets\locations\tablet\image-map-australia.png"
           alt="image-map-canada"
         />
         <img
           className="hidden w-full h-full object-cover rounded-[15px] md:block md:col-span-3"
-          src="src\assets\locations\desktop\image-map-australia.png"
+          src="public\assets\locations\desktop\image-map-australia.png"
           alt="image-map-canada"
         />
         <div className="py-[80px] px-[24px] text-center bg-[#FDF3F0] sm:rounded-[15px] sm:py-[88px] sm:px-[74px] sm:text-left md:col-span-7">
@@ -91,12 +91,12 @@ function Locations() {
       <section className="mb-[40px] sm:mb-[120px] grid sm:gap-[31px] md:grid-cols-10 md:gap-[30px] md:mb-[32px]">
         <img
           className="w-full h-[320px] object-cover sm:hidden"
-          src="src\assets\locations\desktop\image-map-united-kingdom.png"
+          src="public\assets\locations\desktop\image-map-united-kingdom.png"
           alt="image-map-canada"
         />
         <img
           className="hidden w-full h-[320px] object-cover sm:block  sm:rounded-[15px] md:hidden"
-          src="src\assets\locations\tablet\image-map-uk.png"
+          src="public\assets\locations\tablet\image-map-uk.png"
           alt="image-map-canada"
         />
         <div className="py-[80px] px-[24px] text-center bg-[#FDF3F0] sm:rounded-[15px] sm:py-[88px] sm:px-[74px] sm:text-left md:col-span-7">
@@ -126,7 +126,7 @@ function Locations() {
         </div>
         <img
           className="hidden w-full h-full object-cover rounded-[15px] md:block md:col-span-3"
-          src="src\assets\locations\desktop\image-map-united-kingdom.png"
+          src="public\assets\locations\desktop\image-map-united-kingdom.png"
           alt="image-map-canada"
         />
       </section>

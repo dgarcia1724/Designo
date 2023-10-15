@@ -40,7 +40,7 @@ function Hero() {
       </section>
       <div className="heroPhone">
         <img
-          src="src\assets\home\desktop\image-hero-phone.png"
+          src="public\assets\home\desktop\image-hero-phone.png"
           alt="hero phone"
         />
       </div>
@@ -73,7 +73,7 @@ function HomePageMain() {
         >
           <CircleBg>
             <img
-              src="src\assets\home\desktop\illustration-passionate.svg"
+              src="public\assets\home\desktop\illustration-passionate.svg"
               alt="illustration-passionate"
             />
           </CircleBg>
@@ -95,7 +95,7 @@ function HomePageMain() {
         >
           <CircleBg>
             <img
-              src="src\assets\home\desktop\illustration-resourceful.svg"
+              src="public\assets\home\desktop\illustration-resourceful.svg"
               alt="illustration-resourceful"
             />
           </CircleBg>
@@ -117,7 +117,7 @@ function HomePageMain() {
         >
           <CircleBg>
             <img
-              src="src\assets\home\desktop\illustration-friendly.svg"
+              src="public\assets\home\desktop\illustration-friendly.svg"
               alt="illustration-friendly"
             />
           </CircleBg>

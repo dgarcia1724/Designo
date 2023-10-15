@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function WebDesignViewProjects() {
   return (
     <div
-      className="bg-[url('src/assets/home/mobile/image-web-design.jpg')] bg-cover rounded-[15px] overflow-hidden relative
-      sm:bg-[url('src/assets/home/tablet/image-web-design.jpg')] md:col-span-1 md:row-span-2 
-      md:bg-[url('src/assets/home/desktop/image-web-design-large.jpg')]"
+      className="bg-[url('public/assets/home/mobile/image-web-design.jpg')] bg-cover rounded-[15px] overflow-hidden relative
+      sm:bg-[url('public/assets/home/tablet/image-web-design.jpg')] md:col-span-1 md:row-span-2 
+      md:bg-[url('public/assets/home/desktop/image-web-design-large.jpg')]"
     >
       <Link to="/webdesign">
         <section className="h-full w-full grid place-items-center">
@@ -21,7 +21,7 @@ function WebDesignViewProjects() {
                 VIEW PROJECTS
               </p>
               <img
-                src="src\assets\shared\desktop\icon-right-arrow.svg"
+                src="public\assets\shared\desktop\icon-right-arrow.svg"
                 alt="right arrow"
               />
             </div>

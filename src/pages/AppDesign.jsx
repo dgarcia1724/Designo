@@ -5,34 +5,34 @@ import GraphicDesignViewProjects from "../components/GraphicDesignViewProjects";
 const webDesignData = [
   {
     id: 1,
-    url: "src/assets/app-design/desktop/image-airfilter.jpg",
+    url: "public/assets/app-design/desktop/image-airfilter.jpg",
     title: "AIRFILTER",
     description:
       "Solving the problem of poor indoor air quality by filtering the air",
   },
   {
     id: 2,
-    url: "src/assets/app-design/desktop/image-eyecam.jpg",
+    url: "public/assets/app-design/desktop/image-eyecam.jpg",
     title: "EYECAM",
     description:
       "Product that lets you edit your favorite photos and videos at any time",
   },
   {
     id: 3,
-    url: "src/assets/app-design/desktop/image-faceit.jpg",
+    url: "public/assets/app-design/desktop/image-faceit.jpg",
     title: "FACEIT",
     description:
       "Get to meet your favorite internet superstar with the faceit app",
   },
   {
     id: 4,
-    url: "src/assets/app-design/desktop/image-todo.jpg",
+    url: "public/assets/app-design/desktop/image-todo.jpg",
     title: "TODO",
     description: "A todo app that features cloud sync with light and dark mode",
   },
   {
     id: 5,
-    url: "src/assets/app-design/desktop/image-loopstudios.jpg",
+    url: "public/assets/app-design/desktop/image-loopstudios.jpg",
     title: "LOOPSTUDIOS",
     description: "A VR experience app made for Loopstudios",
   },
